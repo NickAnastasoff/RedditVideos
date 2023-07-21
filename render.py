@@ -1,7 +1,7 @@
 import random
 from moviepy.editor import *
 import textwrap
-from Constants import *
+from constants import *
 
 def render(title, posting_user, audio_clip, output_name):
     """

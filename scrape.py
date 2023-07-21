@@ -1,6 +1,6 @@
 import praw
 import json
-from Constants import *
+from constants import clientFile, COMMENT_POOL_MODIF, MAX_LENGTH
 
 def getComments(PAGE, NUM_COMMENTS):
     with open(clientFile, "r") as json_file:
